@@ -1,0 +1,412 @@
+html{
+    background-color:#00BFFF
+  }
+  
+  .pokemon{
+    width: 20px;
+    height: 20px;
+    background: #B0E0E6;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+    z-index: 1;
+    animation: animationpoke 2s ease-out ;
+    animation-delay: 5s;
+    
+    box-shadow:
+      570px 460px 0px 0px #000,
+      590px 460px 0px 0px #000,
+      610px 460px 0px 0px #000,
+      630px 460px 0px 0px #000,
+      830px 460px 0px 0px #000,
+      
+      /*2*/
+      
+      550px 480px 0px 0px #000,
+      570px 480px 0px 0px #FF8C00,
+      590px 480px 0px 0px #FF8C00,
+      610px 480px 0px 0px #FF8C00,
+      630px 480px 0px 0px #FF8C00,
+      650px 480px 0px 0px #000,
+      810px 480px 0px 0px #000,
+      830px 480px 0px 0px #FF4500,
+      850px 480px 0px 0px #000,
+      
+      
+      /*3*/
+      530px 500px 0px 0px #000,
+      550px 500px 0px 0px #FF8C00,
+      570px 500px 0px 0px #FF8C00,
+      590px 500px 0px 0px #FF8C00,
+      610px 500px 0px 0px #FF8C00,
+      630px 500px 0px 0px #FF8C00,
+      650px 500px 0px 0px #FF8C00,
+      670px 500px 0px 0px #000,
+      810px 500px 0px 0px #000,
+      830px 500px 0px 0px #FF4500,
+      850px 500px 0px 0px #FF4500,
+      870px 500px 0px 0px #000,
+      
+       
+      /*4*/
+      
+      530px 520px 0px 0px #000,
+      550px 520px 0px 0px #FF8C00,
+      570px 520px 0px 0px #FF8C00,
+      590px 520px 0px 0px #FF8C00,
+      610px 520px 0px 0px #FF8C00,
+      630px 520px 0px 0px #FF8C00,
+      650px 520px 0px 0px #FF8C00,
+      670px 520px 0px 0px #000,
+      810px 520px 0px 0px #000,
+      830px 520px 0px 0px #FF4500,
+      850px 520px 0px 0px #FF4500,
+      870px 520px 0px 0px #000,
+      
+      
+      /*5*/
+      510px 540px 0px 0px #000,
+      530px 540px 0px 0px #FF8C00,
+      550px 540px 0px 0px #FF8C00,
+      570px 540px 0px 0px #FF8C00,
+      590px 540px 0px 0px #FF8C00,
+      610px 540px 0px 0px #FF8C00,
+      630px 540px 0px 0px #FF8C00,
+      650px 540px 0px 0px #FF8C00,
+      670px 540px 0px 0px #FF8C00,
+      690px 540px 0px 0px #000,
+      790px 540px 0px 0px #000,
+      810px 540px 0px 0px #FF4500,
+      830px 540px 0px 0px #FF4500,
+      850px 540px 0px 0px #FF4500,
+      870px 540px 0px 0px #FF4500,
+      890px 540px 0px 0px #000,
+      
+      
+      
+      /*6*/
+      490px 560px 0px 0px #000,
+      510px 560px 0px 0px #FF8C00,
+      530px 560px 0px 0px #FF8C00,
+      550px 560px 0px 0px #FF8C00,
+      570px 560px 0px 0px #FF8C00,
+      590px 560px 0px 0px #FFFFFF,
+      610px 560px 0px 0px #000,
+      630px 560px 0px 0px #FF8C00,
+      650px 560px 0px 0px #FF8C00,
+      670px 560px 0px 0px #FF8C00,
+      690px 560px 0px 0px #FF8C00,
+      710px 560px 0px 0px #000,
+      790px 560px 0px 0px #000,
+      810px 560px 0px 0px #FF4500,
+      830px 560px 0px 0px #FF4500,
+      850px 560px 0px 0px #FFFF00,
+      870px 560px 0px 0px #FF4500,
+      890px 560px 0px 0px #000,
+      
+      
+      
+      
+      /*7*/
+      490px 580px 0px 0px #000,
+      510px 580px 0px 0px #FF8C00,
+      530px 580px 0px 0px #FF8C00,
+      550px 580px 0px 0px #FF8C00,
+      570px 580px 0px 0px #FF8C00,
+      590px 580px 0px 0px #000,
+      610px 580px 0px 0px #000,
+      630px 580px 0px 0px #FF8C00,
+      650px 580px 0px 0px #FF8C00,
+      670px 580px 0px 0px #FF8C00,
+      690px 580px 0px 0px #FF8C00,
+      710px 580px 0px 0px #000,
+      790px 580px 0px 0px #000,
+      810px 580px 0px 0px #FF4500,
+      830px 580px 0px 0px #FFFF00,
+      850px 580px 0px 0px #FFFF00,
+      870px 580px 0px 0px #FF4500,
+      890px 580px 0px 0px #000,
+      
+      
+      
+      /*8*/
+      490px 600px 0px 0px #000,
+      510px 600px 0px 0px #FF8C00,
+      530px 600px 0px 0px #FF8C00,
+      550px 600px 0px 0px #FF8C00,
+      570px 600px 0px 0px #FF8C00,
+      590px 600px 0px 0px #000,
+      610px 600px 0px 0px #000,
+      630px 600px 0px 0px #FF8C00,
+      650px 600px 0px 0px #FF8C00,
+      670px 600px 0px 0px #FF8C00,
+      690px 600px 0px 0px #FF8C00,
+      710px 600px 0px 0px #000, 
+      810px 600px 0px 0px #000,
+      830px 600px 0px 0px #FFFF00,
+      850px 600px 0px 0px #000,
+      870px 600px 0px 0px #000,
+      
+      
+      
+      
+      /*9*/
+      510px 620px 0px 0px #000,
+      530px 620px 0px 0px #FF8C00,
+      550px 620px 0px 0px #FF8C00,
+      570px 620px 0px 0px #FF8C00,
+      590px 620px 0px 0px #FF8C00,
+      610px 620px 0px 0px #FF8C00,
+      630px 620px 0px 0px #FF8C00,
+      650px 620px 0px 0px #FF8C00,
+      670px 620px 0px 0px #FF8C00,
+      690px 620px 0px 0px #FF8C00,
+      710px 620px 0px 0px #FF8C00,
+      730px 620px 0px 0px #000,
+      810px 620px 0px 0px #000,
+      830px 620px 0px 0px #FF8C00,
+      850px 620px 0px 0px #000,
+     
+         
+      
+      
+      /*10*/
+      530px 640px 0px 0px #000,
+      550px 640px 0px 0px #000,
+      570px 640px 0px 0px #FF8C00,
+      590px 640px 0px 0px #FF8C00,
+      610px 640px 0px 0px #FF8C00,
+      630px 640px 0px 0px #FF8C00,
+      650px 640px 0px 0px #FF8C00,
+      670px 640px 0px 0px #FF8C00,
+      690px 640px 0px 0px #FF8C00,
+      710px 640px 0px 0px #FF8C00,
+      730px 640px 0px 0px #FF8C00,
+      750px 640px 0px 0px #000,
+      790px 640px 0px 0px #000,
+      810px 640px 0px 0px #FF8C00,
+      830px 640px 0px 0px #FF8C00,
+      850px 640px 0px 0px #000,
+      
+      
+      /*11*/
+      
+      570px 660px 0px 0px #000,
+      590px 660px 0px 0px #000,
+      610px 660px 0px 0px #000,
+      630px 660px 0px 0px #FF8C00,
+      650px 660px 0px 0px #FF8C00,
+      670px 660px 0px 0px #000,
+      690px 660px 0px 0px #FF8C00,
+      710px 660px 0px 0px #FF8C00,
+      730px 660px 0px 0px #FF8C00,
+      750px 660px 0px 0px #000,
+      770px 660px 0px 0px #000,
+      790px 660px 0px 0px #FF8C00,
+      810px 660px 0px 0px #FF8C00,
+      830px 660px 0px 0px #000,
+      
+      
+      
+      
+      /*12*/
+      
+      590px 680px 0px 0px #000,
+      610px 680px 0px 0px #FFFF00,
+      630px 680px 0px 0px #FFFF00,
+      650px 680px 0px 0px #FF8C00,
+      670px 680px 0px 0px #FF8C00,
+      690px 680px 0px 0px #FF8C00,
+      710px 680px 0px 0px #FF8C00,
+      730px 680px 0px 0px #FF8C00,
+      750px 680px 0px 0px #FF8C00,
+      770px 680px 0px 0px #000,
+      790px 680px 0px 0px #FF8C00,
+      810px 680px 0px 0px #FF8C00,
+      830px 680px 0px 0px #000,
+      
+      
+      
+      /*13*/
+      
+      590px 700px 0px 0px #000,
+      610px 700px 0px 0px #FFFF00,
+      630px 700px 0px 0px #FFFF00,
+      650px 700px 0px 0px #FFFF00,
+      670px 700px 0px 0px #000,
+      690px 700px 0px 0px #000,
+      710px 700px 0px 0px #FF8C00,
+      730px 700px 0px 0px #FF8C00,
+      750px 700px 0px 0px #FF8C00,
+      770px 700px 0px 0px #000,
+      790px 700px 0px 0px #FF8C00,
+      810px 700px 0px 0px #000,
+      
+      
+      
+      
+      /*14*/
+      
+      570px 720px 0px 0px #000,
+      610px 720px 0px 0px #000,
+      630px 720px 0px 0px #FFFF00,
+      650px 720px 0px 0px #FFFF00,
+      670px 720px 0px 0px #FFFF00,
+      690px 720px 0px 0px #FF8C00,
+      710px 720px 0px 0px #FF8C00,
+      730px 720px 0px 0px #FF8C00,
+      750px 720px 0px 0px #FF8C00,
+      770px 720px 0px 0px #000,
+      790px 720px 0px 0px #000,
+      
+      
+      
+      
+      /*15*/
+      
+      590px 740px 0px 0px #000,
+      610px 740px 0px 0px #000,
+      630px 740px 0px 0px #000,
+      650px 740px 0px 0px #FFFF00,
+      670px 740px 0px 0px #FFFF00,
+      690px 740px 0px 0px #FF8C00,
+      710px 740px 0px 0px #FF8C00,
+      730px 740px 0px 0px #FF8C00,
+      750px 740px 0px 0px #000,
+      770px 740px 0px 0px #000,
+      
+      
+      
+      /*16*/
+      
+      650px 760px 0px 0px #000,
+      670px 760px 0px 0px #000,
+      690px 760px 0px 0px #000,
+      710px 760px 0px 0px #FF8C00,
+      730px 760px 0px 0px #000,
+      750px 760px 0px 0px #000,
+      
+      
+      
+      /*17*/
+      
+      670px 780px 0px 0px #000,
+      710px 780px 0px 0px #FF8C00,
+      750px 780px 0px 0px #000,
+      
+      /*18*/
+      
+      690px 800px 0px 0px #000,
+      710px 800px 0px 0px #000,
+      730px 800px 0px 0px #000,
+      750px 800px 0px 0px #000
+      
+  }
+  
+  
+  
+  
+  .boll{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left:100px ;
+    top: 200px;
+    transform: translate(-50%, -50%);
+    border: 5px solid #1C1C1C;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    border-bottom-left-radius: 10em;
+    border-bottom-right-radius: 10em;
+    animation: boll 0.5s linear alternate infinite;
+    animation-play-state: paused; 
+    cursor:pointer;
+    box-shadow: 0px 30px 50px 10px #C0C0C0
+      
+  }
+  
+  .boll:hover{
+    animation-play-state: running;
+    
+  }
+  
+  
+  
+  
+  
+  
+  .boll::before{
+    content: '';
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: absolute;
+  }
+  
+   .faixa{
+    width: 100%;
+    height: 20px;
+    background-color: #1C1C1C	;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    
+  } 
+  
+  .faixa::before{
+    content: '';
+    width: 80px ;
+    height: 80px;
+    background-color: #1C1C1C	;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: -30px;
+  }
+  
+  
+  .faixa::after{
+    content: '';
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);  
+  }
+  
+  .bolacentro{
+    width: 40px;
+    height: 40px;
+    background-color: #808080;
+    position: relative;
+    left: 50%; 
+    bottom:50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .bolacentro:hover{
+    background-color: green;
+    
+  }
+  /*
+  .bolacentro:active{
+    background-color: red;
+  }*/
+  
+  @keyframes boll{
+    0%{transform: rotate(0deg);} 
+    50%{transform: rotate(10deg);}
+    100%{transform: rotate(-10deg);}
+  }
+  
